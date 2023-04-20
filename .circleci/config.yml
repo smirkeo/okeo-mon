@@ -15,8 +15,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       - checkout
-      - node/run:
-          node-version: '16.13'
+      - node/run
       - run:
           name: "Micky"
           command: "node index.js"
