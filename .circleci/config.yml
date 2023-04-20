@@ -15,8 +15,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       - checkout
-      - node/install:
-          install-yarn: true
+      - node/run:
           node-version: '16.13'
       - run:
           name: "Micky"
@@ -27,5 +26,4 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - node/run
       - say-hello
