@@ -12,4 +12,4 @@ workflows:
         - node/run:
             pkg-manager: npm 
             resource_class: large 
-            setup: node index.js 
+            setup: "node index.js"
