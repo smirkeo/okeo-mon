@@ -12,7 +12,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - node/install
-      - run: "cd .. && ls && node index.js" 
+      - run: "ls && cd .. && ls && node index.js" 
 workflows:
   example-workflow:
     jobs:
