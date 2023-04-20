@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       - node/run:
-        - run: "node index.js"
+         run: "node index.js"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
