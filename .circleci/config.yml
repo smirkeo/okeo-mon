@@ -15,6 +15,9 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       - checkout
+      - node/install:
+          install-yarn: true
+          node-version: '16.13'
       - run:
           name: "Micky"
           command: "node index.js"
